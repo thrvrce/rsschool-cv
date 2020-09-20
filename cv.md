@@ -1,4 +1,4 @@
-Viktor Avdeev
+Victor Avdeev
 ===
 * __Contacts:__
   * mobile: +375-25-653-74-28;
