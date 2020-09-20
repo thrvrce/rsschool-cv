@@ -1,9 +1,9 @@
 Viktor Avdeev
 ===
 * __Contacts:__
- * mobile: +375-25-653-74-28;
- * e-mail: avdeevvictor95@gmail.com;
- * telegram: @thrvrce.
+  * mobile: +375-25-653-74-28;
+  * e-mail: avdeevvictor95@gmail.com;
+  * telegram: @thrvrce.
 * __About myself:__ I am 25 years old, work as an ERP system consultant in Minsk, Republic of Belarus. My main priority is mastering a popular IT profession in the market and learn english language to not be tied to a specific employer or country.
 * __Skills:__
   * SQL;
