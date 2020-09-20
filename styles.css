@@ -1,0 +1,67 @@
+
+body{
+    margin: auto ;
+    padding: 10px;
+    width: 210mm;
+    height: 297mm;
+    position: relative;
+
+}
+header {
+    margin: auto ;
+    text-align: center;
+}
+.photo {
+    border: 1px solid;
+    padding: 0px;
+    align: center;
+}
+.main {
+    margin: 10px ;
+    position: relative;
+    width: 200mm;
+    height: 180mm;
+    top: 5px;
+    left: 5px;
+}
+
+.left-section{
+    position: absolute;
+    left: 1px;
+    top: 10px;
+    margin: 0 5%;
+    width: 45%;
+    height: 90%;
+}
+.right-section{
+    position: absolute;
+    right: 1px;
+    top: 10px;
+    margin: 0 1.5%;
+    width: 45%;
+    height: 90%;
+}
+h2{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+li{
+    text-align: left;
+    vertical-align: middle;
+}
+footer{
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    width: 200mm;
+    height: 20mm;
+    margin: 0 1.5%;
+    text-align: right;
+}
+.h1_p_FIO{
+    color: #1E6AB5;
+}
+h2{
+    color: #1E6AB5;
+    text-transform: uppercase;
+}
