@@ -1,67 +1,132 @@
-
-body{
-    margin: auto ;
-    padding: 10px;
-    width: 210mm;
-    height: 297mm;
-    position: relative;
-
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+.Panel {
+  background: #f3b27a;
+  color: black;
+  font-weight: 400;
+  border-radius: 10px;
+  margin-top: 0.3rem;
+}
+.PanelContent {
+  padding: 0.4rem;
+  color: darkslategray;
+}
+.CVWrapper {
+  max-width: 210mm;
+  max-height: 297mm;
+  background: #faebd7;
+  border-radius: 10px;
 }
 header {
-    margin: auto ;
-    text-align: center;
-}
-.photo {
-    border: 1px solid;
-    padding: 0px;
-    align: center;
-}
-.main {
-    margin: 10px ;
-    position: relative;
-    width: 200mm;
-    height: 180mm;
-    top: 5px;
-    left: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 0.3rem;
 }
 
-.left-section{
-    position: absolute;
-    left: 1px;
-    top: 10px;
-    margin: 0 5%;
-    width: 45%;
-    height: 90%;
+.HeaderTextWrapper {
+  display: flex;
+  flex-flow: column wrap;
 }
-.right-section{
-    position: absolute;
-    right: 1px;
-    top: 10px;
-    margin: 0 1.5%;
-    width: 45%;
-    height: 90%;
+.photo {
+  padding: 0px;
+  border-radius: 20%;
 }
-h2{
-    border-top: 1px solid;
-    border-bottom: 1px solid;
+.MainContentWrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
 }
-li{
-    text-align: left;
-    vertical-align: middle;
+.InfoSection {
+  flex-grow: 1;
+  flex-basis: 40%;
+  margin: 0.3rem 1rem;
 }
-footer{
-    position: absolute;
-    bottom: 5px;
-    left: 10px;
-    width: 200mm;
-    height: 20mm;
-    margin: 0 1.5%;
-    text-align: right;
+.ContactList {
+  padding: 0;
 }
-.h1_p_FIO{
-    color: #1E6AB5;
+.ContactListItem {
+  list-style-type: none;
+  display: flex;
 }
-h2{
-    color: #1E6AB5;
-    text-transform: uppercase;
+.ContactListItem > img {
+  width: 20px;
+  margin-right: 0.3rem;
+}
+
+.ProjectsExample {
+  display: flex;
+}
+
+figure {
+  width: 55%;
+  margin: 0;
+}
+figcaption {
+  text-align: center;
+}
+
+.ProjectImg {
+  width: 100%;
+}
+.ProjectDescription {
+  width: 35%;
+  margin-left: 0.5rem;
+}
+h1 {
+  color: black;
+  font-weight: 600;
+}
+h2 {
+  border-bottom: 1px solid;
+  text-align: center;
+  margin: 0;
+}
+li {
+  text-align: left;
+  vertical-align: middle;
+}
+
+h2 {
+  color: #fff;
+}
+
+h3 {
+  color: #776e65;
+}
+
+h2,
+h3 {
+  text-transform: uppercase;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  margin: 0 1rem;
+}
+
+.FooterLogo {
+  width: 40px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.FooterElement {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
