@@ -1,67 +1,72 @@
-
-body{
-    margin: auto ;
-    padding: 10px;
-    width: 210mm;
-    height: 297mm;
-    position: relative;
-
+body {
+  display: flex;
+  justify-content: center;
+}
+.CVWrapper {
+  max-width: 210mm;
+  max-height: 297mm;
 }
 header {
-    margin: auto ;
-    text-align: center;
-}
-.photo {
-    border: 1px solid;
-    padding: 0px;
-    align: center;
-}
-.main {
-    margin: 10px ;
-    position: relative;
-    width: 200mm;
-    height: 180mm;
-    top: 5px;
-    left: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
 }
 
-.left-section{
-    position: absolute;
-    left: 1px;
-    top: 10px;
-    margin: 0 5%;
-    width: 45%;
-    height: 90%;
+.HeaderTextWrapper {
+  display: flex;
+  flex-flow: column wrap;
 }
-.right-section{
-    position: absolute;
-    right: 1px;
-    top: 10px;
-    margin: 0 1.5%;
-    width: 45%;
-    height: 90%;
+.photo {
+  border: 1px solid;
+  padding: 0px;
+  align: center;
 }
-h2{
-    border-top: 1px solid;
-    border-bottom: 1px solid;
+.MainContentWrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
 }
-li{
-    text-align: left;
-    vertical-align: middle;
+.InfoSection {
+  flex-grow: 1;
+  flex-basis: 40%;
+  margin: 1rem;
 }
-footer{
-    position: absolute;
-    bottom: 5px;
-    left: 10px;
-    width: 200mm;
-    height: 20mm;
-    margin: 0 1.5%;
-    text-align: right;
+
+.ProjectsExample {
+  display: flex;
 }
-.h1_p_FIO{
-    color: #1E6AB5;
+
+figure {
+  width: 60%;
+  margin: 0;
 }
-h2{
-    color: #1E6AB5;
-    text-transform: uppercase;
+figcaption {
+}
+.ProjectImg {
+  width: 100%;
+  /* width: 60%; */
+}
+.ProjectDescription {
+  width: 40%;
+}
+h2 {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+li {
+  text-align: left;
+  vertical-align: middle;
+}
+
+h1,
+h2,
+h3 {
+  color: #1e6ab5;
+}
+
+h2,
+h3 {
+  text-transform: uppercase;
 }
