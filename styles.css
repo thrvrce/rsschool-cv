@@ -52,6 +52,17 @@ header {
   flex-basis: 40%;
   margin: 1rem;
 }
+.ContactList {
+  padding: 0;
+}
+.ContactListItem {
+  list-style-type: none;
+  display: flex;
+}
+.ContactListItem > img {
+  width: 20px;
+  margin-right: 0.3rem;
+}
 
 .ProjectsExample {
   display: flex;
