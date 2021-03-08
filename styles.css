@@ -10,10 +10,10 @@ body {
   color: black;
   font-weight: 400;
   border-radius: 10px;
-  margin-top: 1rem;
+  margin-top: 0.3rem;
 }
 .PanelContent {
-  padding: 9px;
+  padding: 0.4rem;
   color: darkslategray;
 }
 .CVWrapper {
@@ -28,7 +28,7 @@ header {
   flex-wrap: wrap;
   justify-content: space-evenly;
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 0.3rem;
 }
 
 .HeaderTextWrapper {
@@ -47,7 +47,7 @@ header {
 .InfoSection {
   flex-grow: 1;
   flex-basis: 40%;
-  margin: 1rem;
+  margin: 0.3rem 1rem;
 }
 .ContactList {
   padding: 0;
