@@ -61,7 +61,9 @@ figure {
   margin: 0;
 }
 figcaption {
+  text-align: center;
 }
+
 .ProjectImg {
   width: 100%;
   /* width: 60%; */
