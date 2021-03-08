@@ -1,10 +1,26 @@
+* {
+  box-sizing: border-box;
+}
 body {
   display: flex;
   justify-content: center;
 }
+.Panel {
+  background: #f3b27a;
+  color: black;
+  font-weight: 400;
+  border-radius: 10px;
+  margin-top: 1rem;
+  /* padding: 0.1rem; */
+}
+.PanelContent {
+  padding: 9px;
+  color: darkslategray;
+}
 .CVWrapper {
   max-width: 210mm;
   max-height: 297mm;
+  background: #faebd7;
 }
 header {
   display: flex;
@@ -12,6 +28,7 @@ header {
   flex-wrap: wrap;
   justify-content: space-evenly;
   text-align: center;
+  margin-top: 2rem;
 }
 
 .HeaderTextWrapper {
@@ -19,9 +36,10 @@ header {
   flex-flow: column wrap;
 }
 .photo {
-  border: 1px solid;
+  /* border: 1px solid; */
   padding: 0px;
-  align: center;
+  /* align: center; */
+  border-radius: 20%;
 }
 .MainContentWrapper {
   display: flex;
@@ -39,7 +57,7 @@ header {
 }
 
 figure {
-  width: 60%;
+  width: 55%;
   margin: 0;
 }
 figcaption {
@@ -49,21 +67,30 @@ figcaption {
   /* width: 60%; */
 }
 .ProjectDescription {
-  width: 40%;
+  width: 35%;
+  margin-left: 0.5rem;
+}
+h1 {
+  color: black;
+  font-weight: 600;
 }
 h2 {
   border-top: 1px solid;
   border-bottom: 1px solid;
+  text-align: center;
+  margin: 0;
 }
 li {
   text-align: left;
   vertical-align: middle;
 }
 
-h1,
-h2,
+h2 {
+  color: #fff;
+}
+
 h3 {
-  color: #1e6ab5;
+  color: #776e65;
 }
 
 h2,
